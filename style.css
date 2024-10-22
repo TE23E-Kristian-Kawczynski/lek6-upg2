@@ -1,0 +1,58 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: 16vh 15vh 122vh 15vh;
+    gap: 7px;
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    color: white;
+    background-image: url(./img/background.jpg);
+}
+nav{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    background-image: url(./img/background.jpg);
+    justify-content: center;
+    padding-top: 20px;
+}
+a:link, a:visited{
+    color: white;
+}
+.länk{
+    margin-right: 20px;
+}
+aside{
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background-image: url(./img/dragon_side.png);
+    border: 3px solid black;
+}
+.logo{
+    height: 87px;
+    margin-left: 60px;
+    background-color: white;
+}
+#bild{
+    border: 3px solid black;
+}
+main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(./img/background.jpg);
+}
+img{
+    padding: 1px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+footer{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    margin-top: 5px;
+    background-image: url(./img/background.jpg);
+}
